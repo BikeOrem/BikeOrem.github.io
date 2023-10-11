@@ -1,0 +1,97 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Bike Orem</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = stylesheet href = "/styles.css">
+        <link rel = "icon" type = "image/x-icon" href = "/images/Logo.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #68B8F8;">
+        <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+        <img src="/images/Logo.png" alt="Logo" height="80" class="d-inline-block align-text-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about/">About Bike Orem</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/resources/">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href = "/contact/">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+        <div class = "container" style = " padding:30px; background-color: #00BF63; max-width:1800px;"><h1 style = "text-align: center; color:white;">Bike Parking, Repair Stands, and Shops</h1></div>
+        <div class = "container" style = "max-width:1800px; padding-top:50px; padding-bottom: 50px">
+        <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1EdUR2WZOi7PAPvJafzSTxxq6-o8_zJY&ehbc=2E312F" width = 100% height = 1000></iframe>
+            <h1 style = "padding-top:20px; padding-bottom:20px">Have a location not on the map? Submit via the form below and we will review and add it.</h1>
+            <form action="/parking.php" method="post">
+                 <div class="mb-3">
+                         <label for="parking" class="form-label">Does this location have bike parking? (Required)</label>
+
+<select class="form-select" aria-label="Default select example" id="parking" required>
+  <option selected disabled></option>
+  <option value="Good" for="parking">Has Good Parking</option>
+  <option value="Ugly" for="parking">Has Parking but Needs Improvement</option>
+  <option value="Bad" for="parking">Lacking Parking</option>
+</select>
+  </div>
+  <div class="mb-3">
+    <label for="address" class="form-label">Address/Location (Required)</label>
+    <input type="text" class="form-control" id="address" required>
+  </div>
+<div class="mb-3">
+    <label for="description" class="form-label">Description (Optional)</label>
+    <input type="text" class="form-control" id="description">
+  </div>
+                <div class="mb-3">
+  <label for="photo" class="form-label">Picture of location (Optional)</label>
+  <input class="form-control" type="file" id="photo">
+</div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+                
+</form>
+        </div>
+            <footer>
+<div class="footer">
+<div class="footer-row">
+<a href="https://www.facebook.com/bikeorem" target = _blank><i class="fa fa-facebook"> </i></a>
+<a href="https://www.instagram.com/bikeorem" target = _blank><i class="fa fa-instagram"></i></a>
+</div>
+
+<div class="footer-row">
+<ul>
+<li><a href="/about/">About</a></li>
+<li><a href="/contact/">Contact us</a></li>
+<li><a href="/resources/">Resources</a></li>
+<li><a href="/parking/">Bike Parking Map</a></li>
+<li><a href="/calendar/">Calendar</a></li>
+</ul>
+</div>
+<div class="footer-row">
+<a href = "mailto:info@bikeorem.org">info@bikeorem.org</a>
+</div>
+<div class="footer-row">
+Bike Orem Copyright © 2023 Bike Orem - All rights reserved
+</div>
+</div>
+</footer>
+    </body>
+</html>

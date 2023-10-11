@@ -1,0 +1,212 @@
+.header {
+    background-color:#68B8F8;
+    padding:none;
+    margin:none;
+    border:none;
+}
+
+.header-logo {
+    max-height:100px;
+    max-width:100px;
+    width:20%;
+    padding:15px;
+}
+
+body{
+margin:0;
+overflow-x:hidden;
+}
+
+.footer{
+background:#000;
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .footer-row{
+width:100%;
+padding:0.4% 0%;
+color:gray;
+font-size:0.8em;
+}
+
+.footer .footer-row a{
+text-decoration:none;
+color:gray;
+transition:0.5s;
+}
+
+.footer .footer-row a:hover{
+color:#fff;
+}
+
+.footer .footer-row ul{
+width:100%;
+}
+
+.footer .footer-row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .footer-row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .footer-row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .footer-row a i{
+margin:0% 3%;
+}
+}
+
+.carousel-caption{
+    background:rgba(10,10,10,0.6);
+    align-self:flex-end;
+    margin-bottom:5vh;
+}
+
+.carousel-caption h1{
+    font-size:8vh;
+}
+
+.carousel-inner{
+    max-height:100vh;
+    display:flex
+}
+
+@media screen and (max-width:1000px) {
+    .carousel-caption h1{
+        font-size:4vw;
+    }
+    
+    .carousel-caption h3{
+        font-size:3vw;
+    }
+    
+    .main {
+        width:100%;
+    }
+}
+
+.contact{
+    background-color:#00BF63;
+    padding:5vw;
+}
+@media screen and (min-width:1000px) {
+    
+.contact h1{
+    color:white;
+    font-size:2.5vw;
+}
+
+.contact h2{
+    color:white;
+    font-size:1.5vw
+}
+
+.contact h2 a{
+    color:white;
+}
+
+.contact h2 a i{
+    height:30px;
+}
+    
+}
+
+.contact h1{
+    color:white;
+}
+
+.contact h2{
+    color:white;
+}
+
+.contact h2 a{
+    color:white;
+}
+
+.meetings {
+    background-color:#68B8F8;
+    padding:5vw
+}
+
+.meetings h1 {
+    color:white;
+}
+
+.meetings h2 {
+    color:white;
+}
+
+.meetings h2 a{
+    color:white;
+}
+
+@media screen and (min-width:1000px) {
+    
+.meetings h1{
+    color:white;
+    font-size:2.5vw;
+}
+
+.meetings h2{
+    color:white;
+    font-size:1.5vw
+}
+
+.meetings h2 a{
+    color:white;
+}
+    
+}
+
+.contact-form{
+    background-color:gray;
+    padding:30px;
+    color:white;
+    font-size:20px;
+}
+
+.contact-form h1{
+    color:white;
+}
+
+.contact-form h1 a{
+    color:white;
+}
+
+@media screen and (min-width:1200px) {
+    .contact-form{
+        margin-left:10vw;
+        margin-right:10vw;
+    }
+    
+    .social{
+        margin-left:10vw;
+        margin-right:10vw;
+    }
+}
+
+.social{
+    background-image:url(/images/IMG_0211.JPEG);
+    background-position:center;
+    height:40vw;
+    align-content:center;
+}
+
+.social a {
+    font-size:90px;
+    padding:50px
+}
